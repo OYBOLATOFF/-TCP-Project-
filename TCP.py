@@ -165,7 +165,7 @@ create_matrix(input('Название файла: ')) #<--- Спрашиваем
 iterative_solution = iterative_method() #<--- Находим переборное решение
 dynamic_solution = list(dynamic_method(list(matrix.keys()), start)[:-1]+start);
 figure, axes = plt.subplots(1, 3); #<--- Создаём три фигуры: для основного графика, переборного и динамического
-axes[1].set_xlabel('Проект Рамазана Ойболатова и Мусы Абдуллаева', fontsize='large')
+axes[1].set_xlabel('Проект Рамазана Ойболатова', fontsize='large')
 figure.set_facecolor('#c4ddff') #<--- Установка заднего фона
 figure.set_figheight(8) #<--- Устанавливаем ширину и высоту изначального окна
 figure.set_figwidth(15)
